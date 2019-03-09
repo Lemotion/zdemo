@@ -7,5 +7,10 @@ from . import views
 urlpatterns = [
 
     # 末尾加不加  /  看公司要求
-    url(r'^cresponse/$', views.custom_response)
+    url(r'^cresponse/$', views.custom_response),
+
+    #     2. json_response
+    url(r'^cresponse_json/$', views.response_json),
+
+
 ]
