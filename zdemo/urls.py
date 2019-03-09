@@ -23,8 +23,12 @@ urlpatterns = [
     url(r'^', include('auser.urls')),
 
 
-#     2. 定义了 request的应用
+    #     2. 定义了 request的应用
     url(r'^', include('brequest.urls')),
+
+    #     3. 定义 resposne的应用
+    url(r'^', include('cresponse.urls')),
+
 
 
 ]

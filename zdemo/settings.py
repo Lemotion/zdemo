@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'auser.apps.AuserConfig',
-    'brequest.apps.BrequestConfig'
+    'brequest.apps.BrequestConfig',
+    'cresponse.apps.CresponseConfig'
 ]
 
 MIDDLEWARE = [
