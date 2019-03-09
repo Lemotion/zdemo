@@ -2,8 +2,20 @@ from django.http.response import HttpResponse
 from django.shortcuts import render
 
 
-# 1.解析 拼接路径的参数   /1999/beijing/
+# 2. ?a=10&b=20&a=30 解析查询参数
+def login_query(request):
+    # 解析查询参数 request.GET 属性 -->返回类型  django.http.request.QueryDict 支持一键多值
+    params = request.GET
+    print(params)
+    print(type(params))
+    print(params.get('b'))
+    print(params.getlist('a'))
 
+
+    return HttpResponse('2. ?a=10&b=20&a=30 解析查询参数')
+
+
+# 1.解析 拼接路径的参数   /1999/beijing/
 def login_connect(request, city, year):
     print('解析拼接路径的参数----年份:', year)
     print('解析拼接路径的参数----城市:', city)

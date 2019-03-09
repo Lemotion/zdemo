@@ -15,4 +15,8 @@ urlpatterns = [
 
     #     2.  2008/beijing/拼接路径参数 直接正则匹配  给正则起名字 获取的时候就可以不根据顺序
     url(r'^brequest/(?P<year>\d{4})/(?P<city>[a-z]+)/$', views.login_connect),
+
+    #     3. ?a=10&b=20&a=30 解析查询参数
+    url(r'^brequest_query/$', views.login_query),
+
 ]
