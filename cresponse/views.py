@@ -1,8 +1,22 @@
 from django.http.response import HttpResponse, HttpResponseBadRequest, JsonResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.urls.base import reverse
 
 
 # Create your views here.
+
+
+# 重定向 redicrect
+def response_redirect(request):
+
+    # 重定向 自己的路由
+    # return redirect('/auser/')
+
+    # 反解析 reverse()
+    # return redirect(reverse('redirecturl'))
+
+    # 别人的网址
+    return redirect('http://www.itcast.cn')
 
 # 操作 jsonresponse
 # 1.content_type = 'application/json

@@ -7,5 +7,5 @@ from . import views
 urlpatterns = [
 
     # 末尾加不加  /  看公司要求
-    url(r'^auser/$', views.index, name="login")
+    url(r'^auser/$', views.index, name="redirecturl")
 ]

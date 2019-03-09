@@ -12,5 +12,8 @@ urlpatterns = [
     #     2. json_response
     url(r'^cresponse_json/$', views.response_json),
 
+    #     3. 重定向 resposne
+    url(r'^cresponse_redirect/$', views.response_redirect),
+
 
 ]

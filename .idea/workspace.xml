@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbda256a-4682-47d3-b058-e3b9af38864e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auser/urls.py" afterPath="$PROJECT_DIR$/auser/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cresponse/urls.py" afterPath="$PROJECT_DIR$/cresponse/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cresponse/views.py" afterPath="$PROJECT_DIR$/cresponse/views.py" />
     </list>
@@ -59,8 +60,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cresponse/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="57" />
               <folding>
                 <element signature="e#46#78#0" expanded="true" />
               </folding>
@@ -72,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/cresponse/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="237">
-              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="e#0#83#0" expanded="true" />
               </folding>
@@ -115,8 +116,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auser/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="51" />
               <folding>
                 <element signature="e#46#78#0" expanded="true" />
               </folding>
@@ -175,13 +176,13 @@
         <option value="$PROJECT_DIR$/itemplate/views.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/auser/views.py" />
-        <option value="$PROJECT_DIR$/auser/urls.py" />
         <option value="$PROJECT_DIR$/zdemo/index.html" />
         <option value="$PROJECT_DIR$/brequest/urls.py" />
         <option value="$PROJECT_DIR$/brequest/views.py" />
         <option value="$PROJECT_DIR$/zdemo/settings.py" />
         <option value="$PROJECT_DIR$/zdemo/urls.py" />
         <option value="$PROJECT_DIR$/cresponse/urls.py" />
+        <option value="$PROJECT_DIR$/auser/urls.py" />
         <option value="$PROJECT_DIR$/cresponse/views.py" />
       </list>
     </option>
@@ -221,20 +222,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="zdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="zdemo" />
@@ -708,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552102358138</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="2. 响应对象  JsonResponse  交互 json数据类型 dict list(safe=False)&#10;1.content_type = &quot;application/json&quot;&#10;2.dict==str">
+      <created>1552102903002</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1552102903002</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -753,7 +747,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8.配置静态文件   &#10;1. settings  &#10;2. 静态文件的路由 '/static/'&#10;3. 文件夹的路径  STATICFILES_DIRS = [ os.path.join(BASE_DIR,'文件夹')]" />
     <MESSAGE value="8.路由可能被屏蔽  url(r'^$')" />
     <MESSAGE value="9. 路由反向解析    根据视图函数 借用reverse()  倒着推  路由的路径&#10;1. 总urls.py  namespace=&quot;&quot;&#10;2. 子urls.py  name = &quot;&quot;&#10;&#10;1.有namespace  reverse('namespace:name')&#10;2.没有有namespace  reverse('name')" />
     <MESSAGE value="10.请求对象 获取直接拼接在路径后面的参数 crequest/a/b/&#10;1.通过正则拼配&#10;2.给正则参数起名字  ?P&lt;name&gt;" />
@@ -778,7 +771,8 @@
     <MESSAGE value="1. 请求request  请求体body  非form表单  POST  PUT  DELETE PATCH&#10;&#10;request.body -=&gt;bytes =decode()=&gt;str&#10;&#10;json_bytes=&gt;json_str==&gt; json.loads()" />
     <MESSAGE value="1. 请求request  头 信息&#10;request.META  dict&#10;&#10;request.method&#10;request.path" />
     <MESSAGE value="2. 响应对象  response&#10;&#10;参数  HttpResponse(content=&quot;&quot;,content_type=&quot;&quot;,status=)&#10;属性 response=  HttpResponse()  response.status_code = 200" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. 响应对象  response&#10;&#10;参数  HttpResponse(content=&quot;&quot;,content_type=&quot;&quot;,status=)&#10;属性 response=  HttpResponse()  response.status_code = 200" />
+    <MESSAGE value="2. 响应对象  JsonResponse  交互 json数据类型 dict list(safe=False)&#10;1.content_type = &quot;application/json&quot;&#10;2.dict==str" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. 响应对象  JsonResponse  交互 json数据类型 dict list(safe=False)&#10;1.content_type = &quot;application/json&quot;&#10;2.dict==str" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -962,26 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zdemo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="e#639#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auser/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/django_py/lib/python3.6/site-packages/django/http/response.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -992,10 +966,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cresponse/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="57" />
           <folding>
             <element signature="e#46#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auser/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <element signature="e#46#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zdemo/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#639#680#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1003,7 +997,7 @@
     <entry file="file://$PROJECT_DIR$/cresponse/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="e#0#83#0" expanded="true" />
           </folding>
