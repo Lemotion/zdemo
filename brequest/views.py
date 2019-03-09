@@ -1,6 +1,17 @@
 from django.http.response import HttpResponse
 from django.shortcuts import render
 
+# 3. 请求体 ---form表单参数的 解析
+def login_form(request):
+    params = request.POST
+    print(params)
+    print(type(params))
+    print(params.get('b'))
+    print(params.getlist('a'))
+
+    return HttpResponse('3. form表单参数的 解析')
+
+
 
 # 2. ?a=10&b=20&a=30 解析查询参数
 def login_query(request):

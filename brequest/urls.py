@@ -19,4 +19,8 @@ urlpatterns = [
     #     3. ?a=10&b=20&a=30 解析查询参数
     url(r'^brequest_query/$', views.login_query),
 
+    # 4. form表单参数的 解析
+    url(r'^brequest_form/$', views.login_form),
+
+
 ]
