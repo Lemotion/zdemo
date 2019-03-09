@@ -22,5 +22,12 @@ urlpatterns = [
     # 4. form表单参数的 解析
     url(r'^brequest_form/$', views.login_form),
 
+    # 5. 非form表单参数的 解析
+    url(r'^brequest_not_form/$', views.login_not_form),
+
+    #    6.请求头 信息获取
+    url(r'^brequest_headers/$', views.login_header),
+
+
 
 ]
