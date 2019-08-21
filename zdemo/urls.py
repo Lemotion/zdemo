@@ -31,4 +31,6 @@ urlpatterns = [
 
     #     4. 操作 cookie的应用
     url(r'^', include('dcookie.urls')),
+    #     5. 操作 session的应用
+    url(r'^', include('ereview.urls')),
 ]
