@@ -10,5 +10,5 @@ def login_cookie(request):
     response.set_cookie('itcast','itheima',max_age=30)
     #获取cookie 进行验证
     print(request.COOKIES)
-    print(type(request.COOKIES['itcast']))
+    # print(type(request.COOKIES['itcast']))
     return response
