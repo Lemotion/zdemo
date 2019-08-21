@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'auser.apps.AuserConfig',
     'brequest.apps.BrequestConfig',
-    'cresponse.apps.CresponseConfig'
+    'cresponse.apps.CresponseConfig',
+    'dcookie.apps.DcookieConfig'
 ]
 
 MIDDLEWARE = [

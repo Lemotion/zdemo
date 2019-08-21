@@ -29,6 +29,6 @@ urlpatterns = [
     #     3. 定义 resposne的应用
     url(r'^', include('cresponse.urls')),
 
-
-
+    #     4. 操作 cookie的应用
+    url(r'^', include('dcookie.urls')),
 ]
